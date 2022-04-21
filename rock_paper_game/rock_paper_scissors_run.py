@@ -4,6 +4,16 @@ from random import randint
 start_int:int = 1
 end_int:int = 4
 
+# The below code only has backend aspect, 
+# if given more time, we can build a UI, 
+# which makes choice selection easier and more rror free 
+# Unit tests can be added for the functions for comparing
+# the save the game and resume the game functions 
+# can be implemented based on the object stored 
+# after each trial user can be given an option to save the game 
+# multiple threads can be listening to multiple users 
+# using a web service if user are on multiple browsers  
+
 # since we have computer also as a user 
 class UserType(IntEnum):
     computer_user = 0
