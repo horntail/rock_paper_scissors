@@ -1,6 +1,8 @@
 from enum import IntEnum
 from random import randint
 
+# because we have only 3 choices, rock, paper, scissors, 
+# if there were many others hence keeping the range of choices as numbers 
 start_int:int = 1
 end_int:int = 4
 
